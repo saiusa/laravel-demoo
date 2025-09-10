@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>About Us</title>
 </head>
 <body>
-    <div>Home Page</div>
+    <h1>About Us</h1>
+    <p>This is the About Us page.</p>
+    <nav>
+        <a href="{{ route('homepage') }}">Back to Homepage</a>
+    </nav>
 </body>
 </html>
