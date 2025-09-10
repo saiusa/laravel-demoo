@@ -1,7 +1,7 @@
 $font-stack: Poppins, sans-serif;
 $color-header: white;
-$homepage-h1-color: #333;
-$homepage-p-color: #555;
+$contact-us-h1-color: #333;
+$contact-us-p-color: #555;
 
 body {
   font-family: $font-stack;
@@ -35,7 +35,7 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: $color-header;
+  color: plum;
   font-weight: bold;
   font-size: 16px;
 }
@@ -44,40 +44,17 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
-#homepage, #contact-us, #about-us {
-  text-align: center;
-  margin-top: 50px;
-}
-
-#homepage {
+#contact-us {
+  text-align: top;
   margin-top: 150px; 
 }
 
-#homepage h1 {
+#contact-us h1 {
   font-size: 36px;
-  color: $homepage-h1-color;
+  color: $contact-us-h1-color;
 }
 
-#homepage p {
+#contact-us p {
   font-size: 18px;
-  color: $homepage-p-color;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: plum;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
+  color: $contact-us-p-color;
 }
