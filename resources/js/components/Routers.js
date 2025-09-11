@@ -9,15 +9,14 @@ import About from './About';
 
 export default function Routers() {
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/contact-us" element={<Contact/>} />
-            <Route path="/about-us" element={<About/>} />
-            <Route path="/example" element={<Example/>} />
+            <Route path="/" element={<Home />} />
+            <Route path="/contact-us" element={<Contact />} />
+            <Route path="/about-us" element={<About />} />
         </Routes>
     </Router>
-  )
+  );
 }
 
 if(document.getElementById("root")) {
